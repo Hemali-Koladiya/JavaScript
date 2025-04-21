@@ -1,0 +1,9 @@
+Notes for java script:-
+
+console used for => debugeing
+prompt => get value from user with alert box
+
+
+Math.random() => give trendome value between 0 to 1 , if you want from 1 to 100 then multiply it by 100 then itr give value in 1 to 100 // example:- 89.09450790041296
+
+Math.floor() => if you want integer number of randome then use this function it give value in integere /// example:- 89.09450790041296 display this 8number to just 89
