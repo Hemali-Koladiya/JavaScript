@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 3.2</title>
+  </head>
+  <body>
+    <script>
+      const shopping = ["Milk", "Bread", "Apples"];
+      shopping.splice(1, 1, "Bananas", "Eggs");
+      document.write("Add items :- ", shopping + "<br><br>");
+
+      //   let arrOfShapes = ["circle", "triangle", "rectangle", "pentagon"];
+      //   arrOfShapes.splice(2, 0, "square", "trapezoid");
+      //   document.write("Array of Shapes :- " ,arrOfShapes);
+      shopping.pop();
+      document.write("Delete Last Items Of Array :- " , shopping , "<br><br>");
+      
+      let sort = shopping.sort()
+      document.write("Sorting Array :- ", sort , "<br><br>")
+
+      let index = shopping.indexOf("Milk")
+      document.write("Index of Milk is :- " , index + "<br><br>")
+
+      let add = shopping
+      add.splice(1, 0, "Carrots" , "Lettuce")
+      document.write("Add items :- ", add + "<br><br>");
+
+      let array = ["Juice" , "Pop"]
+      document.write("New Array :-" , array + "<br><br>")
+
+      let concat = shopping.concat(array)
+      document.write("combine both Array :-" , concat + "<br><br>")
+
+      let concat2 = concat.concat(array)
+      document.write("combine both Array :-" , concat2 + "<br><br>")
+
+      let value = concat2.lastIndexOf("Pop")
+      document.write("Index of Pop is :- " , value)
+
+    </script>
+  </body>
+</html>
